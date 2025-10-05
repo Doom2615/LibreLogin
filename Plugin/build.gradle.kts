@@ -123,13 +123,13 @@ libby {
 configurations.all {
     // I hate this, but it needs to be done as bungeecord does not support newer versions of adventure, and packetevents includes it
     resolutionStrategy {
-        force("net.kyori:adventure-text-minimessage:4.14.0")
-        force("net.kyori:adventure-text-serializer-gson:4.14.0")
-        force("net.kyori:adventure-text-serializer-legacy:4.14.0")
-        force("net.kyori:adventure-text-serializer-json:4.14.0")
-        force("net.kyori:adventure-api:4.14.0")
-        force("net.kyori:adventure-nbt:4.14.0")
-        force("net.kyori:adventure-key:4.14.0")
+        force("net.kyori:adventure-text-minimessage:4.25.0")
+        force("net.kyori:adventure-text-serializer-gson:4.25.0")
+        force("net.kyori:adventure-text-serializer-legacy:4.25.0")
+        force("net.kyori:adventure-text-serializer-json:4.25.0")
+        force("net.kyori:adventure-api:4.25.0")
+        force("net.kyori:adventure-nbt:4.25.0")
+        force("net.kyori:adventure-key:4.25.0")
     }
 }
 
@@ -140,11 +140,11 @@ dependencies {
     //Velocity
     annotationProcessor("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
     compileOnly("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT")
-    compileOnly("com.velocitypowered:velocity-proxy:3.2.0-SNAPSHOT-277")
+    compileOnly("com.velocitypowered:velocity-proxy:3.4.0-SNAPSHOT-540")
 
     //MySQL
     libby("org.mariadb.jdbc:mariadb-java-client:3.5.1")
-    libby("com.zaxxer:HikariCP:6.2.1")
+    libby("com.zaxxer:HikariCP:7.0.2")
 
     //SQLite
     libby("org.xerial:sqlite-jdbc:3.47.1.0")
@@ -187,7 +187,7 @@ dependencies {
     //Paper
     compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
     //compileOnly "com.comphenix.protocol:ProtocolLib:5.1.0"
-    libby("com.github.retrooper:packetevents-spigot:2.7.0")
+    libby("com.github.retrooper:packetevents-spigot:2.9.5")
     compileOnly("io.netty:netty-transport:4.1.108.Final")
     compileOnly("com.mojang:datafixerupper:5.0.28") //I hate this so much
     compileOnly("org.apache.logging.log4j:log4j-core:2.23.1")
