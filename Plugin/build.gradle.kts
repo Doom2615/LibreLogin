@@ -21,7 +21,7 @@ mcupload {
             loaders = listOf("paper", "purpur", "bungeecord", "waterfall", "velocity")
             projectId = "tL0SCXYq"
             gameVersions = listOf(
-                "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21",
+                "1.21.8", "1.21.7", "1.21.6", "1.21.5", "1.21.4", "1.21.3", "1.21.2", "1.21.1", "1.21",
                 "1.20.6", "1.20.5", "1.20.4", "1.20.3", "1.20.2", "1.20.1", "1.20",
                 "1.19.4", "1.19.3", "1.19.2", "1.19.1", "1.19",
                 "1.18.2", "1.18.1", "1.18",
@@ -170,7 +170,7 @@ dependencies {
     libby("com.github.kyngs:LegacyMessage:0.2.0")
 
     //Geyser
-    compileOnly("org.geysermc.floodgate:api:2.2.0-SNAPSHOT")
+    compileOnly("org.geysermc.floodgate:api:2.2.4-SNAPSHOT")
     //LuckPerms
     compileOnly("net.luckperms:api:5.4")
 
@@ -185,7 +185,7 @@ dependencies {
     libby("org.bstats:bstats-bukkit:3.0.2")
 
     //Paper
-    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
     //compileOnly "com.comphenix.protocol:ProtocolLib:5.1.0"
     libby("com.github.retrooper:packetevents-spigot:2.7.0")
     compileOnly("io.netty:netty-transport:4.1.108.Final")
